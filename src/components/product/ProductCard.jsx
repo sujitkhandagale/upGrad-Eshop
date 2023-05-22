@@ -18,9 +18,9 @@ const bull = (
 
 export default function ProductCard() {
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card sx={{ minWidth: 200 }}>
       <CardContent>
-        <img src={"https://placehold.co/300"} alt="" />
+        <img src={"https://placehold.co/200"} alt="" />
       </CardContent>
       <CardActions>
         <Button size="small"><Link to={"/products/10"}>Product Name</Link></Button>

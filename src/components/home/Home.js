@@ -7,7 +7,8 @@ function Home() {
     return (
         <>
 <Link to={"/"}>Home</Link> &nbsp;
-<Link to={"/products"}>Products</Link> 
+<Link to={"/products"}>Products</Link>  &nbsp;
+<Link to={"/products/23"}>Single Product</Link> &nbsp;
         </>
     )
 }

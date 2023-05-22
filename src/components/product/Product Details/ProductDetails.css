@@ -1,16 +1,45 @@
+
+.center_of_div {
+
+}
+
+.product_title {
+    position: absolute;
+    width: 100%;
+}
+
 .Product_Details {
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: relative;
     gap: 20px;
     top: 50%;
+    height: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
-.product_description {
 
-}
-.product_description .product_details {
 
+.product_description {}
+
+.product_description .product_details {}
+
+@media only screen and (max-width:768px) {
+
+    .product_title {
+        position: unset;
+    }
+    .Product_Details {
+        top: 0;
+        left: 0;
+        transform: none;
+        display: flex;
+        flex-direction: column;
+    }
 }
