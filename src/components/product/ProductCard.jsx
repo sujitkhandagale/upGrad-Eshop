@@ -24,6 +24,7 @@ export default function ProductCard() {
       </CardContent>
       <CardActions>
         <Button size="small"><Link to={"/products/10"}>Product Name</Link></Button>
+        
       </CardActions>
     </Card>
   );

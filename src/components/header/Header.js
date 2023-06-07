@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
 import "./Header.css"
+import LoginBox from '../LoginBox/LoginBox';
 
 export default function Header() {
     return (
@@ -37,6 +38,7 @@ export default function Header() {
                         <Button variant="contained" color="inherit">Sign Up</Button>
                     </Link>
                 </Toolbar>
+             
             </AppBar>
         </Box>
     );
